@@ -1,0 +1,76 @@
+{
+	"Institute time": [[8.30, 12.30],
+		[14.00, 17.00]],
+
+	"Classrooms": [
+		["CL1", "small"],
+		["CL2", "small"],
+		["CL3", "small"],
+		["LT1","big"],
+		["LT2","big"],
+		["LH1","Large"],
+		["LH2","Large"],
+		["T1","small"],
+		["T2","small"],
+		["T3","small"],
+		["LAB5", "AI"],
+		["LAB6", "AI1"],
+		["LAB7", "AI2"],
+		["LAB8", "AI3"],
+		["LAB9", "AI4"],
+		["LAB10", "AI5"],
+		["LAB2", "compArch"]
+	],
+	"Courses": [
+    	["CS341", "compArch", [180,180],"Sharad", ["cs btech 17"]],
+		["CS305", "small", [60, 60, 60],"Sharad", ["cs btech 17"]],
+		["CS228", "small", [60, 60, 60],"Sreejith", ["cs btech 17"]],
+		["CS344", "small", [90, 90, 90],"Clint", ["cs btech 17"]],
+		["CS386","AI",[180,180],"Clint",["cs btech 17"]],
+		["CS387","AI1",[180,180,180],"Biswas",["cs btech 18"]],
+		["CS388","AI2",[180,180,180],"Neha",["cs btech 19"]],
+		["CS570","big",[60,60],"Madhukar",["cs btech 17"]],
+		["HS301","big",[60,60,60],"Sabhiha",["cs btech 17","ee btech 17","me btech 17"]],
+        ["CS572","big",[60,60,60],"Neha",["cs btech 17"]],
+        ["EE572","big",[60,60,60],"Kuntal",["ee btech 17"]],
+        ["ME572","small",[60,60,60],"Gaonkar",["me btech 17"]],
+        ["ME101","small",[60,60,60],"Sunil",["me btech 17"]],
+        ["ME102","small",[60,60,60],"Manoj",["me btech 17"]],
+        ["ME103","small",[60,60,60],"DirectorSir",["me btech 17"]],
+        ["ME104","small",[60,60,60],"Pramod",["me btech 17"]],
+		["EE570","small",[60,60,60],"Sashidhar",["ee btech 17"]],
+		["EE101","small",[60,60,60],"Saumya",["ee btech 17"]],
+		["EE102","small",[60,60,60],"Dhanya",["ee btech 17"]],
+		["EE103","small",[60,60,60],"TSRathore",["ee btech 17"]],
+		["EE104","small",[60,60,60],"SivaKumar",["ee btech 17"]],
+		["EE224/cs205","Large",[60,60,60],"Nandkumar",["ee btech 18","cs btech 18"]],
+		["CH107","Large",[60,60,60],"Rishikesh",["ee btech 19","cs btech 19","me btech 19"]],
+		["EE633","small",[60,60,60],"Pavitra",["ee mtech 19"]],
+		["ME633","small",[60,60,60],"Prachi",["me mtech 19"]],
+		["CS633","small",[60,60,60],"Abhilasha",["cs mtech 19"]]
+	],
+	"Preference time not prefer": [
+	["Amal", [14, 17]],
+	["Sharad", [14, 17]],
+	["Biswas", [8.30,12.30]],
+	["Sabhiha",[14,17]]
+	],
+	
+	"Preference day not prefer": [
+	["Madhukar", ["Tuesday","Wednesday","Thursday"]]
+	],
+
+	"Preference room not prefer": [
+	["Sharad", ["CL3"]],
+	["Nandkumar", ["LH1"]]
+	],
+
+	"Preference of room batch not prefer": [
+		["ee mtech 19", ["CL1","CL2","CL3"]],
+		["me mtech 19", ["CL1","CL2","CL3"]],
+		["cs mtech 19", ["CL1","CL2","CL3"]],
+		["cs btech 17", ["T1","T2","T3"]],
+		["ee btech 17", ["T1","T2","T3"]],
+		["me btech 17", ["T1","T2","T3"]]
+		]
+}
