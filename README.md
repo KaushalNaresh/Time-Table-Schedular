@@ -1,11 +1,10 @@
-# Time-Table-Sceduler
+# Readme
+## Time-Table-Sceduler
 A program which automatically prints the Time Table given certain constraints using python Z3 Library.
 
-Time Table Scheduler using SAT solvers.
 > Name : Naresh Kumar Kaushal  
 > Department : CSE, Term : Fourth Year  
 > Course Instructor : Dr. Sudakshina Dutta 
-***
 
 ## Table of Contents
 1. [Prerequisites](#prerequisites)
@@ -15,14 +14,14 @@ Time Table Scheduler using SAT solvers.
 5. [Propositions Involved](#propositions-involved)
 6. [Addiotional Info And Resources](#additional-info-and-resources)
 
->## Prerequisites  
+## Prerequisites  
 <div style="text-align: justify"> 
 
 In order to run this Timetable schedular system on your PC you need to install python3 <https://realpython.com/installing-python/> a link to install the same. You also need to install Z3 library developed by Microsoft <https://github.com/Z3Prover/z3/releases> a link for the same. After installing Z3 library do not forget to add that to the PATH variable on your PC. 
 
 </div>
 
->## Required Files
+## Required Files
 <div style="text-align: justify">
 
 In order to run this schedular make one folder on your desktop name it as you wish and then add the json
@@ -32,14 +31,14 @@ and python script file given by us to that same folder.
 
 </div>
 
->## How to run
+## How to run
 <div style="text-align: justify">
 
 Just open the command prompt in the same folder you have created and type *python 170030027.py* It will take few seconds to print the time table on your console but since its hard to interpret what’s going on so it will also generate one csv file *TimeTable.csv* open it with Microsoft Excel to see the final output in a more aesthetic way.
 
 </div>
 
->## Structure
+## Structure
 <div style="text-align: justify">
 
 **Universe** – x and y belongs to instances of Room class.   
@@ -62,7 +61,7 @@ Just open the command prompt in the same folder you have created and type *pytho
 
 </div>
 
->## Propositions involved
+## Propositions involved
 <div style="text-align: justify">
 
 1. For All x (day(x) == (‘Monday’ Or ‘Tuesday’ Or ‘Wednesday’ Or ‘Thursday’ Or ‘Friday’))
@@ -89,7 +88,7 @@ Just open the command prompt in the same folder you have created and type *pytho
 |**Preference room not prefer** | This includes [Faculty name, [Room He/She do not like to prefer]] |  
 |**Preference of room batch not prefer** | This includes [Batch name, [classes where particular batch can’t have classes]] |  
 
->## Additional Info And Resources    
+## Additional Info And Resources    
 <div style="text-align: justify">  
 
 To learn more about Z3 library follow the link <https://ericpony.github.io/z3py-tutorial/guideexamples.htm> and HAPPY CODING 😊  
