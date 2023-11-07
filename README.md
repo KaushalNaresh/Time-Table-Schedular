@@ -3,8 +3,8 @@
 A program which automatically prints the Time Table given certain constraints using python Z3 Library.
 
 > Name : Naresh Kumar Kaushal  
-> Department : CSE, Term : Fourth Year  
-> Course Instructor : Dr. Sudakshina Dutta 
+ > Department : CSE, Term : Third Year  
+> Course Instructor : Dr. Sreejith AV 
 
 ## Table of Contents
 1. [Prerequisites](#prerequisites)
